@@ -1,0 +1,225 @@
+/************common css****
+**************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/************header css****
+**************************/
+
+.tinyone-header {
+    background: #fbdb00;
+    padding: 50px 0;
+}
+
+.upper-header {}
+
+.upper-header .bar i {
+    font-size: 22px;
+    color: #000;
+}
+
+.upper-header .logo {
+    text-align: center;
+}
+
+.upper-header .social {}
+
+.social ul {
+    display: flex;
+}
+
+.social ul li {
+    list-style: none;
+    display: flex;
+    padding: 0 11px;
+}
+
+.social ul li a {
+    text-decoration: none;
+}
+
+.social ul li a i {
+    font-size: 22px;
+    color: #000;
+}
+
+.down-header {
+    margin: auto;
+    padding: 218px 0;
+}
+
+.header-title {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title h2 {
+    font-size: 48px;
+    color: #000;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.header-title p {
+    font-size: 20px;
+    color: #313841;
+}
+
+.header-body {
+    text-align: center;
+}
+
+.header-body ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-body ul li {
+    list-style: none;
+    margin: 0 12px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.header-body ul li i {
+    margin: 20px 20px;
+    font-size: 32px;
+}
+
+
+.carousel-indicators{
+    padding-top: 200px;
+    top:200px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+
+/************features css****
+**************************/
+.tinyone-features-section{
+    padding: 75px 0 100px 0;
+}
+.tinyone-title {
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.tinyone-title h2 {
+    color: #010101;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.tinyone-title p {
+    color: #313841;
+    font-size: 20px;
+    
+}
+
+.tinyone-features {}
+
+.tinyone-features .box {
+    padding: 40px 15px;
+    margin-left: px;
+}
+
+.tinyone-features .box h2 {
+    color: #010101;
+    font-size: 20px;
+}
+
+.tinyone-features .box p {
+    color: #898989;
+    font-size: 16px;
+}
+
+
+
+
+.mobile-img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mobile-img img {
+    max-width: 100%;
+}
+
+/************comment css****
+**************************/
+.footer-section{
+    background: #010101;
+    padding-bottom: 40px 0px 135px 0px;
+}
+.comment-section{
+     width: 60%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.comment-dis {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.comment-dis h2 {
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.comment-dis p {
+    color: #898989;
+    font-size: 20px;
+}
+
+.commnet-submit {
+    
+    width: 100%;
+}
+.commnet-submit form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.commnet-submit input[type="text"] {
+    border: 0px;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left:25px;
+}
+
+.commnet-submit input[type="submit"] {
+    border: 0px;
+    width: 17%;
+    border-radius: 10px;
+    height: 50px;
+    background: #fbdb00;
+}
+.footer-bottom{
+    padding: 75px 0;
+}
+.col-lg-3 li{
+    color: #fff;
+    font-size: 16px;
+}

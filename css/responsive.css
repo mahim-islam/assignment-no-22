@@ -1,0 +1,98 @@
+@media(max-width:991px) {
+/*header-section*/
+    .upper-header .logo {
+        text-align: right;
+    } 
+    .social{
+        display: none;
+    }
+
+
+    
+/*****************************
+***header-down**********
+***************************/
+    
+    .down-header {
+    padding: 100px 0;
+}
+
+.header-title {
+    width: 90%;
+}
+
+.header-title h2 {
+    font-size: 28px;
+    color: #000;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.header-title p {
+    font-size: 16px;
+    color: #313841;
+}
+
+
+.header-body ul li i {
+    margin: 10px 10px;
+    font-size: 32px;
+}
+    .carousel-indicators{
+    padding-top: 100px;
+    top:100;
+}
+
+/*****************************
+***header-down**********
+***************************/
+   .tinyone-features-section{
+    padding: 75px 0 100px 0;
+}
+.tinyone-title {
+    width: 90%;
+    padding: 30px 0;
+}
+
+.tinyone-title h2 {
+    font-size: 28px;
+}
+
+.tinyone-title p {
+    font-size: 16px;
+    
+}
+
+.tinyone-features {}
+
+.tinyone-features .box {
+    padding: 20px 15px;
+    margin-left: px;
+}
+
+.tinyone-features .box h2 {
+    color: #010101;
+    font-size: 20px;
+}
+
+.tinyone-features .box p {
+    color: #898989;
+    font-size: 16px;
+}
+
+
+
+
+.mobile-img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mobile-img img {
+    max-width: 100%;
+}
+ 
+    
+    
+    
+}
